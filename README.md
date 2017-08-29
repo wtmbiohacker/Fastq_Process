@@ -2,7 +2,7 @@
 
 
 ######
-脚本需要输入的参数说明
+#脚本需要输入的参数说明
 ######
 LEADING_quality   read5‘端trim的threshold（一般选择25，前端的base质量值低于25的base会被去掉）
 TRAILING_quality  read3’端trim的threshold（一般选择25，尾端的base质量值低于25的base会被去掉）
@@ -16,13 +16,13 @@ prefix            merge时输出文件的名字（存储pair-end read合并
 
 
 ######
-输出文件说明
+#输出文件说明
 ######
 本脚本会产生两个文件夹meger_result和final_result。meger_result文件夹是存储中间merge输出结果的，final_result文件夹使用来保存最终的过滤结果的。
 
 
 ######
-脚本命令使用说明
+#脚本命令使用说明
 ######
 一.本脚本的使用方法：
 
