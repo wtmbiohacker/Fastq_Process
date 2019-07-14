@@ -12,9 +12,10 @@
                     Generally, (length of PCR product) - 1~2 bp
                     
 4.Maxlength	        过滤时read的最大长度, same as above.
-                    Generally, L1 = 2N (NGS setting, e.g. 150 bp) - (length of PCR product) + 1~2 bp; 
-                               L2 = (length of PCR product) + 1~2 bp; 
-                               max(L1, L2)
+                    Generally, 
+                    L1 = 2N (NGS setting, e.g. 150 bp) - (length of PCR product) + 1~2 bp; 
+                    L2 = (length of PCR product) + 1~2 bp; 
+                    max(L1, L2)
 
 5.forwardFastq      pair-end reads的right的fastq file
 
