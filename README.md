@@ -9,6 +9,7 @@
 
 3.MINLEN            过滤时read的最短长度 (如果read中base的质量很低导致read被trim后的长度太短低于这个threshold值，该read就被丢弃)
                     Generally, (length of PCR product) - 1~2 bp
+                    
 4.Maxlength	        过滤时read的最大长度, same as above
                     Generally, 2N (NGS setting, e.g. 150 bp) - (length of PCR product) + 1~2 bp
 
